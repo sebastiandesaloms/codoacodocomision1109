@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="ejinte.css">
+
+    <title>Ejericio_integrador</title>
+
+
+</head>
+
+<body>
+    <!-- aca empieza nav -->
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="./img/codoacodo.png" alt="">
+
+                Conf Bs As</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Los oradores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">El lugar y la fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Convierte en orador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: green;" href="#">Comprar tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- aca termina nav -->
+
+    <!-- aca empieza carosuel-->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/ba1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/ba2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/ba3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+
+        <div class="carousel-caption d-flex d-md-block col-6">
+
+            <h1 class="text-end">Conf Bs As</h1>
+            <p class="text-end">BsAs llega por primera vez a Argentina. Un evento para compartir con nuestra
+                comunidad
+                el conocimiento de
+                los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros
+                estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!
+            </p>
+            <p class="text-end"> <a href="#" class="btn btn btn-outline-light btn-transparent" id="botonUno">Quiero
+                    ser
+                    orador</a>
+                <a href="#" class="btn btn-primary" style="background-color: green;">Comprar tickets</a>
+            </p>
+
+
+        </div>
+    </div>
+    <div class="text-center">
+        <p class="fs-6">CONOCE A LOS</p>
+        <p class="fs-3"> ORADORES</p>
+    </div>
+
+
+    <!-- comienza card -->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/steve.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark">Javascript</span>
+                        <span class="badge bg-info text-dark">React</span>
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/bill.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark">Javascript</span>
+                        <span class="badge bg-info text-dark">React</span>
+                        <h5 class="card-title">Bill gates</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./img/ada.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <span class="badge bg-secondary">Negocios</span>
+                        <span class="badge bg-danger">StartUps</span>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- aca termina cards -->
+    </div>
+
+    <div class="text-center">
+        <p class="fs-7">CONVIERTETE EN UN</p>
+        <p class="fs-3"> ORADOR</p>
+        <p><span id="textdeco">ORADOR</span></p>
+    </div>
+
+    <!-- aca terminan container de cards -->
+
+    <!-- segunda row -->
+
+    <div class="card text-white bg-dark mb-3">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="./img/honolulu.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body  mb-3">
+                    <h5 class="card-title">Bs Octubre</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, id nam quo
+                        sequi modi consequuntur impedit! Dicta optio voluptatibus expedita repudiandae aperiam odio,
+                        debitis laboriosam?</p>
+                    <a href="#" class="btn btn-outline-light btn-transparent">Conoce mas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- aca termina segundo row de card con img -->
+
+    <!-- aca empieza form -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+
+            <label for="floatingTextarea2"> <span id="textoC"> Sobre que quieres hablar?</span></label>
+            <div id="emailHelp" class="form-text">Recuerda inclur un titulo para tu charla.</div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-success" style="height: 60px; font-size: 20px ;" type="button">Enviar</button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- aca termina el form -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

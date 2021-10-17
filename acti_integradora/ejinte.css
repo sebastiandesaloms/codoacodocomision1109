@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 nav img {
     width: 120px;
 }
@@ -29,6 +34,7 @@ nav img {
 }
 
 #textdeco {
-    font-size: 12px !important;
-    ;
+    text-decoration-line: underline !important;
+    text-decoration-style: dotted !important;
+
 }

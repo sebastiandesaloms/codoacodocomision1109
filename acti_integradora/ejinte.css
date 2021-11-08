@@ -38,3 +38,8 @@ nav img {
     text-decoration-style: dotted !important;
 
 }
+
+#footer {
+    bottom: 0px;
+    /* position: fixed; */
+}
